@@ -31,17 +31,14 @@ class HomePage extends StatelessWidget {
       child: Column(
         children: <Widget>[
           const Center(child:
-            Text("Information Section", style:TextStyle(fontSize: 24, fontWeight: FontWeight.bold))
+            Text(txtHomePageTitle, style:TextStyle(fontSize: 24, fontWeight: FontWeight.bold))
           ),
           const Divider(),
           const SizedBox(height: 10,),
 
-          const SizedBox(
-            height: 200,
-            child: Text(
-            'It is a long established text. It is a long established text. It is a long established text. It is a long established text. It is a long established text. It is a long established text.It is a long established text. It is a long established text. It is a long established text.',
-            style: TextStyle(fontSize: 20),
-            ),
+          SizedBox(
+            height: 300,
+            child: Text(txtHomePageBody, style: const TextStyle(fontSize: 15),),
           ),
 
           const Divider(),
@@ -65,7 +62,7 @@ class HomePage extends StatelessWidget {
     showCircularProgressIndicator(context);
 
     // TODO Remove this dummy
-    //await Future.delayed(const Duration(seconds: 2), (){});
+    //await Future.delayed(const Duration(seconds: 6), (){});
     //List<User> users = getDummyUsers();
 
     // get list of users from DB

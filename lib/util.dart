@@ -18,6 +18,9 @@ void showCircularProgressIndicator(BuildContext context) {
       });
 }
 
+const String txtHomePageTitle = 'What POPI is?';
+const String txtHomePageBody = "The Protection of Personal Information Act (or POPI Act) is South Africa’s equivalent of the EU GDPR. It sets some conditions for responsible parties (called controllers in other jurisdictions) to lawfully process the personal information of data subjects (both natural and juristic persons). The POPI Act does not stop you from processing and does not require you to get consent from data subjects to process their personal information. Whoever decides why and how to process personal information is responsible for complying with the conditions. There are eight general conditions and three extra conditions. The responsible party is also responsible for a failure by their operators (those who process for them) to meet the conditions.";
+
 List<User> getDummyUsers(){
   List<User> dummyUsers = [];
 
